@@ -1,5 +1,6 @@
 #include <iostream>
 
+
 using namespace std;
 
 /* Delete a node in a list with O(1)
