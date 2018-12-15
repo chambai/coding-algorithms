@@ -2,6 +2,7 @@
 
 using namespace std;
 
+
 bool BinaryFind(int arr[], int len, int key)
 {
 	if (len == 0)
