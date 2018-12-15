@@ -2,6 +2,7 @@
 #include <ctime>
 #include <cassert>
 #include <sstream>
+
 using namespace std;
 
 #include "red_black_tree.h"
