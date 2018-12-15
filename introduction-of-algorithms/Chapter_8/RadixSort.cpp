@@ -1,5 +1,6 @@
 #include <iostream>
 
+
 using namespace std;
 
 //return the number of a number contains;
