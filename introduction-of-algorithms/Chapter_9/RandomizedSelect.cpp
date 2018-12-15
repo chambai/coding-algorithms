@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include <ctime>
 
+
 using namespace std;
 
 //找两个数之间的随机数
