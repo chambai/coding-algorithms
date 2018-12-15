@@ -2,6 +2,7 @@
 #include <string>
 #include <algorithm>
 #include <cctype>
+
 using namespace std;
 
 bool checkDifferent(string iniString) {
