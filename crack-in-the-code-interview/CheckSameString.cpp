@@ -2,6 +2,7 @@
 #include <string>
 #include <algorithm>
 
+
 using namespace std;
 
 bool checkSam(string stringA, string stringB) 
