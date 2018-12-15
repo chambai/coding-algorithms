@@ -4,6 +4,7 @@
 #include <cmath>
 #include <cassert>
 
+
 using namespace std;
 
 #define MAX(x,y) ((x)>(y)?(x):(y))
