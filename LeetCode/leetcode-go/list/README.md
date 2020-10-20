@@ -69,7 +69,7 @@
 
 ### [12 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
 
-**go 语言实现：** [参考]()
+**go 语言实现：** [参考](https://github.com/ctimbai/coding-algorithms/blob/master/LeetCode/leetcode-go/list/getIntersectionNode.go)
 
 ### [13 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
 
