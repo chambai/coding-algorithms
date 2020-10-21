@@ -17,8 +17,8 @@ func evalRPN(tokens []string) int {
 			if len(stack) < 2 {
 				return -1
 			}
-			a := stack[len(stack)-1]
-			b := stack[len(stack)-2]
+			b := stack[len(stack)-1] // 注意坑，b是被除数
+			a := stack[len(stack)-2] // a 是除数
 			stack = stack[:len(stack)-2]
 			var result int
 
@@ -34,7 +34,7 @@ func evalRPN(tokens []string) int {
 			}
 			stack = append(stack, result)
 		default:
-			val, _ := strconv.Atoi(tokes[i])
+			val, _ := strconv.Atoi(tokens[i])
 			stack = append(stack, val)
 		}
 	}

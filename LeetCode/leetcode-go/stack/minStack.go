@@ -18,7 +18,7 @@ func Constructor() MinStack {
 }
 
 func (this *MinStack) Push(x int) {
-	if len(this.min) == 0 || x <= this.min[len(this.min)-1] { // 注意坑，会有相同的元素
+	if len(this.min) == 0 || x <= this.min[len(this.min)-1] {
 		this.min = append(this.min, x)
 	}
 	this.stack = append(this.stack, x)
